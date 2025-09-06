@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "template")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/Template_Hardware/lib/Footprints/template.pretty")(options "")(descr ""))
+)
