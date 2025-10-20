@@ -2363,7 +2363,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4002"
+		(symbol "Diode:US2AA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2381,7 +2381,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4002"
+			(property "Value" "US2AA"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2389,7 +2389,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -2398,7 +2398,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/US2AA-D.PDF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2407,7 +2407,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
+			(property "Description" "50V, 1.5A, General Purpose Rectifier Diode, SMA(DO-214AC)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2434,7 +2434,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "Super Fast"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2443,7 +2443,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?41*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2452,7 +2452,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4002_0_1"
+			(symbol "US2AA_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -2490,7 +2490,7 @@
 					)
 				)
 			)
-			(symbol "1N4002_1_1"
+			(symbol "US2AA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -7747,92 +7747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4002")
-		(at 69.85 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d8ec1d6-510e-4310-9b8b-9ca9285bc25c")
-		(property "Reference" "D1"
-			(at 69.85 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4002"
-			(at 69.85 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 69.85 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 69.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-			(at 69.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 69.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 69.85 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58f4949a-1ab5-4549-a31b-a893505ce431")
-		)
-		(pin "1"
-			(uuid "215a017c-1f86-4c50-9a7b-e62331a6fd76")
-		)
-		(instances
-			(project ""
-				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 129.54 0)
 		(unit 1)
@@ -10189,6 +10103,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:US2AA")
+		(at 69.85 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "788e613c-8a12-4576-9d86-aca3142d9e30")
+		(property "Reference" "D2"
+			(at 69.85 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "US2AA"
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 69.85 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/US2AA/5844483"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, 1.5A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36cce39c-7abb-4ba7-b35a-5a43ef96bf8f")
+		)
+		(pin "2"
+			(uuid "13de07ef-7106-41cb-9e38-cbf398418d35")
+		)
+		(instances
+			(project ""
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 156.21 219.71 0)
 		(mirror y)
@@ -11624,6 +11624,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:US2AA")
+		(at 90.17 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c133785d-1a18-4517-b901-98c33cda53dd")
+		(property "Reference" "D1"
+			(at 92.71 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "US2AA"
+			(at 92.71 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 85.725 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/US2AA/5844483"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V, 1.5A, General Purpose Rectifier Diode, SMA(DO-214AC)"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1747f4e-4aa4-4941-b8ea-25840d9b0ba5")
+		)
+		(pin "2"
+			(uuid "b40e3401-f9d8-46ec-8be7-f0e6c7e27a72")
+		)
+		(instances
+			(project "LaserDiodeDriver"
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 224.79 0)
 		(unit 1)
@@ -12537,94 +12625,6 @@
 			(project "LaserDiodeDriver"
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4002")
-		(at 90.17 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0f4b85b-9ebf-4af8-8de3-a9b495043def")
-		(property "Reference" "D2"
-			(at 92.71 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4002"
-			(at 92.71 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 85.725 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 90.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-			(at 90.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0e4f298-b342-4c0e-b22a-6c81ca52f710")
-		)
-		(pin "1"
-			(uuid "ec2331e4-0972-466e-858c-342c4db046c5")
-		)
-		(instances
-			(project "LaserDiodeDriver"
-				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "D2")
 					(unit 1)
 				)
 			)
