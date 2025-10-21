@@ -7953,7 +7953,8 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 171.45 130.81 0)
+		(at 80.01 115.57 0)
+		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7961,7 +7962,7 @@
 		(dnp no)
 		(uuid "12a87f47-08d5-4f32-8682-e8209d801704")
 		(property "Reference" "U2"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7969,7 +7970,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 176.276 134.62 0)
+			(at 84.836 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +7978,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +7987,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +7996,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +8005,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8013,7 +8014,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8022,7 +8023,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8031,7 +8032,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8040,7 +8041,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8772,7 +8773,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 171.45 140.97 90)
+		(at 171.45 120.65 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8780,7 +8781,7 @@
 		(dnp no)
 		(uuid "32476deb-819a-4378-91b1-c567300a1fed")
 		(property "Reference" "RN2"
-			(at 171.45 137.922 90)
+			(at 171.45 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8788,7 +8789,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 171.45 143.764 90)
+			(at 171.45 123.444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +8797,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
-			(at 171.45 143.002 90)
+			(at 171.45 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8806,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1002S1002P1AT/4725785"
-			(at 171.45 140.97 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +8815,7 @@
 			)
 		)
 		(property "Description" "10k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
-			(at 171.45 140.97 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +8824,7 @@
 			)
 		)
 		(property "Price" " $0.72000"
-			(at 171.45 140.97 90)
+			(at 171.45 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9493,8 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 101.6 154.94 180)
+		(at 78.74 220.98 0)
+		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9500,7 +9502,7 @@
 		(dnp no)
 		(uuid "504373fa-8c59-44cd-8306-b7bf840c3997")
 		(property "Reference" "U2"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9508,7 +9510,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 97.282 158.75 0)
+			(at 83.058 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9518,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +9527,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9534,7 +9536,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9545,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,7 +9554,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,7 +9563,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9570,7 +9572,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +9581,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 101.6 154.94 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,8 +9869,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 80.01 115.57 0)
-		(mirror x)
+		(at 171.45 130.81 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9876,7 +9877,7 @@
 		(dnp no)
 		(uuid "6539687c-7a07-4b5b-b110-51d6707f215b")
 		(property "Reference" "U2"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,7 +9885,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 84.582 119.38 0)
+			(at 176.276 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +9893,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9901,7 +9902,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +9911,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +9920,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +9929,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9937,7 +9938,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9946,7 +9947,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9955,7 +9956,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 80.01 115.57 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,8 +11460,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 171.45 120.65 270)
-		(mirror x)
+		(at 171.45 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11468,7 +11468,7 @@
 		(dnp no)
 		(uuid "bc8b9e96-b005-45c6-acf1-057d12f136f7")
 		(property "Reference" "RN2"
-			(at 171.45 117.602 90)
+			(at 171.45 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11476,7 +11476,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 171.45 123.19 90)
+			(at 171.45 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11484,7 +11484,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
-			(at 171.45 122.682 90)
+			(at 171.45 143.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11493,7 +11493,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1002S1002P1AT/4725785"
-			(at 171.45 120.65 0)
+			(at 171.45 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +11502,7 @@
 			)
 		)
 		(property "Description" "10k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
-			(at 171.45 120.65 0)
+			(at 171.45 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,7 +11511,7 @@
 			)
 		)
 		(property "Price" " $0.72000"
-			(at 171.45 120.65 90)
+			(at 171.45 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12560,8 +12560,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 78.74 220.98 0)
-		(mirror x)
+		(at 101.6 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12569,7 +12568,7 @@
 		(dnp no)
 		(uuid "df7485f1-5a17-4ff3-8572-547fd717758c")
 		(property "Reference" "U2"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12577,7 +12576,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 83.058 225.044 0)
+			(at 97.282 159.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12585,7 +12584,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12594,7 +12593,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12603,7 +12602,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12612,7 +12611,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +12620,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12630,7 +12629,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +12638,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12648,7 +12647,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
