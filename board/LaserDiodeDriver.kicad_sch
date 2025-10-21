@@ -9019,7 +9019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "LD_Library:R_Shunt_0805_2012Metric"
 			(at 132.842 130.81 90)
 			(effects
 				(font
