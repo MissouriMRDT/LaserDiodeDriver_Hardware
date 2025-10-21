@@ -8726,7 +8726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.egismos.disonhu.com/laser/diode-package.htm"
+		(property "Datasheet" "https://www.thorlabs.com/thorproduct.cfm?partnumber=S7060R"
 			(at 134.62 157.988 0)
 			(effects
 				(font
@@ -8744,7 +8744,16 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "$54.02"
+		(property "Price" "$7.49"
+			(at 132.08 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LD_Datasheet" "http://www.egismos.disonhu.com/laser/diode-package.htm"
 			(at 132.08 161.29 90)
 			(effects
 				(font
@@ -10223,6 +10232,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" " $0.40000"
 			(at 113.03 26.67 0)
 			(effects
 				(font
@@ -11762,6 +11780,15 @@
 				(hide yes)
 			)
 		)
+		(property "Price" " $0.40000"
+			(at 133.35 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a1747f4e-4aa4-4941-b8ea-25840d9b0ba5")
 		)
@@ -12429,7 +12456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/EE2-12NU/4291099"
 			(at 45.72 120.65 0)
 			(effects
 				(font
@@ -12438,8 +12465,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil"
+		(property "Description" "General Purpose Relay DPDT (2 Form C) Surface Mount"
 			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" " $2.27000"
+			(at 45.72 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
