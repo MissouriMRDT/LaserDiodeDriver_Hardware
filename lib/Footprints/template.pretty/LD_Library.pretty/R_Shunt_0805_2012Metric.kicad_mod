@@ -231,4 +231,15 @@
 		(uuid "6d2d2eb8-f125-46d4-8618-b2475f80c471")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/crt0805.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

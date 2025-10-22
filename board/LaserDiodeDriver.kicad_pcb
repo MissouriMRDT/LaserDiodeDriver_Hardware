@@ -7296,7 +7296,7 @@
 				)
 			)
 		)
-		(property "Description" "1 Ohms ±0.25% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Current Sense Thin Film"
+		(property "Description" "Shunt resistor with Kelvin connections"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7335,7 +7335,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3cd41161-fadf-4b95-b9ed-b346a05b7044")
+			(uuid "039401f7-8220-4da3-b825-8497445ad051")
 		)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -7345,7 +7345,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "85a695d2-b339-41cd-8aa2-20406b92ac29")
+			(uuid "75336ece-623b-47ba-91ef-ecf64b45cb60")
 		)
 		(fp_line
 			(start -2 0.95)
@@ -7355,7 +7355,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f568f951-eff2-4747-a00e-d8ba67b91e17")
+			(uuid "2c4ef8a6-b0e6-429b-ba84-456cc8115c6a")
 		)
 		(fp_line
 			(start 2.05 0.95)
@@ -7365,7 +7365,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "230adf52-bdf3-4449-a8a4-b0c67a028a50")
+			(uuid "74ed24e1-e89d-4569-9cd6-b64803d2722c")
 		)
 		(fp_line
 			(start -2 -0.95)
@@ -7375,7 +7375,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "83a4e0de-07ae-4914-b7a1-dca85c82dc63")
+			(uuid "1e0a8815-09dd-43e0-9110-493434f5b634")
 		)
 		(fp_line
 			(start 2.05 -0.95)
@@ -7385,7 +7385,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "61f6c605-7816-4dad-bc37-ed1c2dcfa12a")
+			(uuid "adacff73-1f6b-46cb-8af0-5723cd8c31d1")
 		)
 		(fp_line
 			(start -1 0.625)
@@ -7395,7 +7395,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3f5e62ab-32ef-4f15-89c7-1909905c421c")
+			(uuid "10e86fd4-b902-4165-b4b4-760c93153505")
 		)
 		(fp_line
 			(start 1 0.625)
@@ -7405,7 +7405,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "223984ab-6269-4c27-aaba-30938b01f90f")
+			(uuid "1cb47d93-0b32-4b3c-8b36-6e0afabc7d59")
 		)
 		(fp_line
 			(start -1 -0.625)
@@ -7415,7 +7415,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f6f9ed08-cf9e-4cc2-9b21-ae02ba15957b")
+			(uuid "a01efc2b-f444-4726-9781-a11fadb7e31c")
 		)
 		(fp_line
 			(start 1 -0.625)
@@ -7425,7 +7425,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "30542d46-bd6b-4b4c-8a53-071dd156a4ed")
+			(uuid "f6e4fa74-74a3-4b01-b897-6954b40272f0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -0.05 5.1 270)
@@ -7516,6 +7516,17 @@
 			(uuid "a1fa35d4-bed0-4935-aa49-a1d03c2b6cbe")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/crt0805.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 		(layer "F.Cu")
@@ -11146,6 +11157,19 @@
 				)
 			)
 		)
+		(property "Price" " $0.40000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ef65d11-596e-4767-a1da-185f2066b3f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/788e613c-8a12-4576-9d86-aca3142d9e30")
 		(sheetname "/")
@@ -13046,6 +13070,19 @@
 				)
 			)
 		)
+		(property "Price" " $0.40000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54222d72-035f-4449-a953-c47ed4600bc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMA*")
 		(path "/c133785d-1a18-4517-b901-98c33cda53dd")
 		(sheetname "/")
@@ -13293,7 +13330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/EE2-12NU/4291099"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13306,7 +13343,7 @@
 				)
 			)
 		)
-		(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 12V DC coil"
+		(property "Description" "General Purpose Relay DPDT (2 Form C) Surface Mount"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13315,6 +13352,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" " $2.27000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea3dc01c-484d-4bf9-8304-309f82923905")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -14143,7 +14193,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "http://www.egismos.disonhu.com/laser/diode-package.htm"
+		(property "Datasheet" "https://www.thorlabs.com/thorproduct.cfm?partnumber=S7060R"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14171,12 +14221,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Price" "$54.02"
+		(property "Price" "$7.49"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "223ef56d-9469-4b06-a83f-7877ac94d76e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LD_Datasheet" "http://www.egismos.disonhu.com/laser/diode-package.htm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01d6cb1b-805e-4996-8a54-bc5437b335f8")
 			(effects
 				(font
 					(size 1 1)
