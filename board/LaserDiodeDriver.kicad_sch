@@ -11039,7 +11039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Hirose:Hirose_DF13-02P-1.25DS_1x02_P1.25mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -11048,7 +11048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF3-2P-2DS-01/455725"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-EH/926533"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -11066,7 +11066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" " $0.46000"
+		(property "Price" " $0.10000"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -11075,7 +11075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mate" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF3-2S-2C/141479"
+		(property "Mate" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/EHR-2/527224"
 			(at 41.91 43.18 0)
 			(effects
 				(font
@@ -11084,7 +11084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Crimp" "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/DF3-2428SCC/269904"
+		(property "Crimp" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SEH-001T-P0-6/26213194"
 			(at 41.91 43.18 0)
 			(effects
 				(font
