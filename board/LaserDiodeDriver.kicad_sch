@@ -4748,12 +4748,6 @@
 		(uuid "02243d66-cf49-469b-9394-101b808cc380")
 	)
 	(junction
-		(at 41.91 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03770b58-2054-4815-bf41-bb5842a48ea7")
-	)
-	(junction
 		(at 91.44 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4946,7 +4940,7 @@
 		(uuid "89245ae1-c118-4d92-9287-190c051e2d72")
 	)
 	(junction
-		(at 30.48 223.52)
+		(at 41.91 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b832f99-e0c1-4c43-a89b-a46e6494e99c")
@@ -4958,7 +4952,7 @@
 		(uuid "8ddcca74-87bc-4d84-8158-cca8f3a3c839")
 	)
 	(junction
-		(at 41.91 243.84)
+		(at 53.34 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9827cd76-2bb5-4dac-966f-3cbc17d0e45e")
@@ -5052,6 +5046,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5a54ead-b564-46aa-93f0-d76c0a6786d5")
+	)
+	(no_connect
+		(at 46.99 233.68)
+		(uuid "0ae839dc-cc4a-4194-bd3f-bc16c1d2fc27")
 	)
 	(no_connect
 		(at 40.64 144.78)
@@ -5179,16 +5177,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 223.52) (xy 41.91 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c5a03cc-c73f-4683-a8c7-aa00ebd84c10")
-	)
-	(wire
-		(pts
 			(xy 63.5 233.68) (xy 63.5 234.95)
 		)
 		(stroke
@@ -5279,7 +5267,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 243.84) (xy 63.5 243.84)
+			(xy 53.34 243.84) (xy 63.5 243.84)
 		)
 		(stroke
 			(width 0)
@@ -5449,7 +5437,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 223.52) (xy 30.48 229.87)
+			(xy 41.91 223.52) (xy 41.91 229.87)
 		)
 		(stroke
 			(width 0)
@@ -5549,16 +5537,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 243.84) (xy 41.91 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ffd34a9-6f35-4976-91d1-b6413e956976")
-	)
-	(wire
-		(pts
 			(xy 110.49 138.43) (xy 110.49 146.05)
 		)
 		(stroke
@@ -5576,16 +5554,6 @@
 			(type default)
 		)
 		(uuid "42111c48-69cb-4902-9a56-ce8b70d8920b")
-	)
-	(wire
-		(pts
-			(xy 35.56 233.68) (xy 38.1 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "431f5b14-6306-43c5-9ddd-99b983916f9d")
 	)
 	(wire
 		(pts
@@ -5679,7 +5647,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 237.49) (xy 30.48 243.84)
+			(xy 41.91 237.49) (xy 41.91 243.84)
 		)
 		(stroke
 			(width 0)
@@ -5849,7 +5817,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 243.84) (xy 41.91 243.84)
+			(xy 41.91 243.84) (xy 53.34 243.84)
 		)
 		(stroke
 			(width 0)
@@ -6079,7 +6047,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 222.25) (xy 30.48 223.52)
+			(xy 41.91 222.25) (xy 41.91 223.52)
 		)
 		(stroke
 			(width 0)
@@ -6309,23 +6277,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 243.84) (xy 41.91 245.11)
+			(xy 53.34 243.84) (xy 53.34 245.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a7a1b8ef-ae06-4e82-8517-846746041f76")
-	)
-	(wire
-		(pts
-			(xy 41.91 223.52) (xy 50.8 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a84ea63e-fe29-4321-9974-2f3e09a15e9c")
 	)
 	(wire
 		(pts
@@ -6489,7 +6447,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 213.36) (xy 30.48 214.63)
+			(xy 41.91 213.36) (xy 41.91 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6799,7 +6757,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 223.52) (xy 30.48 223.52)
+			(xy 41.91 223.52) (xy 50.8 223.52)
 		)
 		(stroke
 			(width 0)
@@ -7436,88 +7394,6 @@
 			(project "LaserDiodeDriver"
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Trim_US")
-		(at 41.91 233.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a407234-dce5-4d89-9b2f-f38541536245")
-		(property "Reference" "RV1"
-			(at 44.45 232.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 44.45 234.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 41.91 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/3296W-1-103LF/1088045"
-			(at 41.91 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "5 kOhms 0.5W, 1/2W PC Pins Through Hole Trimmer Potentiometer Cermet 25.0 Turn Top Adjustment"
-			(at 41.91 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$2.05000"
-			(at 41.91 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "53d16e63-581c-4d09-85f6-81f0101e745b")
-		)
-		(pin "2"
-			(uuid "075f1a3c-1a39-4daa-bb96-8c13b780c846")
-		)
-		(pin "1"
-			(uuid "13f50bc3-551e-44ea-9645-94b627002b86")
-		)
-		(instances
-			(project "LaserDiodeDriver"
-				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -8193,7 +8069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp"
 			(at 113.03 30.48 0)
 			(effects
 				(font
@@ -8535,79 +8411,6 @@
 			(project ""
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 137.16 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cbbd022-4855-465b-aa9a-a1bbc1a44cce")
-		(property "Reference" "HS1"
-			(at 142.24 106.6672 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Heatsink"
-			(at 142.24 109.2072 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Heatsink:Heatsink_AAVID_Extruded_531002B00000G_34.9x12.7mm_H25.4mm"
-			(at 137.16 108.2548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/wakefield-vette/657-15ABPEN/3945700?gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlghEVudHKBEPNdYN7v0ps6hs&gclid=CjwKCAjwu9fHBhAWEiwAzGRC__zxPu4SLBdsVH4EIqb6j5d0RQx1LS1I3olNj-Z06d_M7gqJ0-fDAxoC20sQAvD_BwE&gclsrc=aw.ds"
-			(at 137.16 108.2548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink with electrical connection, 2 pin"
-			(at 137.16 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$1.72000"
-			(at 137.16 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -11624,7 +11427,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 30.48 218.44 0)
+		(at 41.91 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11633,7 +11436,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcb00525-5774-424c-846e-4017c68a781c")
 		(property "Reference" "R1"
-			(at 33.02 217.1699 0)
+			(at 44.45 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11642,7 +11445,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 33.02 219.7099 0)
+			(at 44.45 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,7 +11454,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 31.496 218.694 90)
+			(at 42.926 218.694 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11660,7 +11463,7 @@
 			)
 		)
 		(property "Datasheet" "(Standards)"
-			(at 30.48 218.44 0)
+			(at 41.91 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11669,7 +11472,7 @@
 			)
 		)
 		(property "Description" "1.5k Ohm, 0603"
-			(at 30.48 218.44 0)
+			(at 41.91 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12266,7 +12069,7 @@
 	)
 	(symbol
 		(lib_id "Reference_Voltage:LT1009xS8")
-		(at 30.48 233.68 270)
+		(at 41.91 233.68 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12275,7 +12078,7 @@
 		(dnp no)
 		(uuid "ce53011f-c680-48df-b476-bd36e033fb16")
 		(property "Reference" "U1"
-			(at 27.94 232.4099 90)
+			(at 39.37 232.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12284,7 +12087,7 @@
 			)
 		)
 		(property "Value" "LT1009"
-			(at 27.94 234.9499 90)
+			(at 39.37 234.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12293,7 +12096,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 25.4 233.68 0)
+			(at 36.83 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12303,7 +12106,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc/LT1009S8-TRPBF/960160"
-			(at 30.48 233.68 0)
+			(at 41.91 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12313,7 +12116,7 @@
 			)
 		)
 		(property "Description" "Adjustable Micropower Voltage Reference Diodes, TO-92"
-			(at 30.48 233.68 0)
+			(at 41.91 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12322,7 +12125,7 @@
 			)
 		)
 		(property "Price" "$7.36000"
-			(at 30.48 233.68 90)
+			(at 41.91 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,7 +12225,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 245.11 0)
+		(at 53.34 245.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12430,7 +12233,7 @@
 		(dnp no)
 		(uuid "d45609c1-e7e3-42fc-8d29-020e1a9e751c")
 		(property "Reference" "#PWR04"
-			(at 41.91 251.46 0)
+			(at 53.34 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12439,7 +12242,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 248.92 0)
+			(at 53.34 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +12250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 245.11 0)
+			(at 53.34 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,7 +12259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 245.11 0)
+			(at 53.34 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,7 +12268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 245.11 0)
+			(at 53.34 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12808,7 +12611,7 @@
 	)
 	(symbol
 		(lib_id "power:+10V")
-		(at 30.48 213.36 0)
+		(at 41.91 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12816,7 +12619,7 @@
 		(dnp no)
 		(uuid "e009156e-a28a-4897-929a-9699b9d14b4e")
 		(property "Reference" "#PWR01"
-			(at 30.48 217.17 0)
+			(at 41.91 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12825,7 +12628,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 30.48 209.296 0)
+			(at 41.91 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12833,7 +12636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 213.36 0)
+			(at 41.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,7 +12645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 213.36 0)
+			(at 41.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,7 +12654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 30.48 213.36 0)
+			(at 41.91 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,6 +13103,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 137.16 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3b118fd-5977-4a8b-b7c9-7b33e997d7f0")
+		(property "Reference" "HS1"
+			(at 140.3351 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 139.0651 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 108.2548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/wakefield-vette/657-15ABPEN/3945700?gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlghEVudHKBEPNdYN7v0ps6hs&gclid=CjwKCAjwu9fHBhAWEiwAzGRC__zxPu4SLBdsVH4EIqb6j5d0RQx1LS1I3olNj-Z06d_M7gqJ0-fDAxoC20sQAvD_BwE&gclsrc=aw.ds"
+			(at 137.16 108.2548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same as HS1, just to show they both use it."
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LaserDiodeDriver"
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 121.92 217.17 0)
 		(mirror y)
@@ -13671,7 +13549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp"
 			(at 137.16 110.49 0)
 			(effects
 				(font
