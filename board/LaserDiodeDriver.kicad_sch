@@ -5509,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 43.18) (xy 46.99 43.18)
+			(xy 53.34 43.18) (xy 48.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5529,7 +5529,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 45.72) (xy 53.34 45.72)
+			(xy 48.26 45.72) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7877,7 +7877,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 80.01 115.57 0)
+		(at 78.74 220.98 0)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -7886,7 +7886,7 @@
 		(dnp no)
 		(uuid "12a87f47-08d5-4f32-8682-e8209d801704")
 		(property "Reference" "U2"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +7894,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 84.836 111.76 0)
+			(at 83.566 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,7 +7902,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +7911,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +7920,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +7929,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +7938,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +7947,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +7956,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +7965,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 80.01 115.57 0)
+			(at 78.74 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,18 +8176,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20c3b3ae-60d2-4f4d-a050-37fa0998f39c")
 		(property "Reference" "U3"
-			(at 113.03 30.48 0)
+			(at 113.03 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LM317_TO-220"
-			(at 113.03 33.02 0)
+		(property "Value" "LM317"
+			(at 104.394 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8250,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 153.67 125.73 90)
+		(at 153.67 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8259,7 +8258,7 @@
 		(dnp no)
 		(uuid "2169f3da-3529-4481-bd5a-12ce7b03760e")
 		(property "Reference" "RN1"
-			(at 153.67 122.682 90)
+			(at 153.67 132.842 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8267,7 +8266,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 153.67 128.27 90)
+			(at 153.67 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +8274,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
-			(at 153.67 127.762 90)
+			(at 153.67 137.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +8283,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1001S1001P1AT/4725788"
-			(at 153.67 125.73 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +8292,7 @@
 			)
 		)
 		(property "Description" "1k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
-			(at 153.67 125.73 0)
+			(at 153.67 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,7 +8301,7 @@
 			)
 		)
 		(property "Price" " $0.72000"
-			(at 153.67 125.73 90)
+			(at 153.67 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +8705,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 171.45 120.65 90)
+		(at 171.45 120.65 270)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8933,7 +8933,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "42b32d4e-50ae-4347-b3f2-b781608d50cf")
 		(property "Reference" "R14"
 			(at 132.08 129.5399 0)
@@ -9426,8 +9425,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 78.74 220.98 0)
-		(mirror x)
+		(at 101.6 154.94 180)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9435,7 +9433,7 @@
 		(dnp no)
 		(uuid "504373fa-8c59-44cd-8306-b7bf840c3997")
 		(property "Reference" "U2"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9443,7 +9441,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 83.058 224.79 0)
+			(at 97.282 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9451,7 +9449,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,7 +9458,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9469,7 +9467,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9476,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +9485,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9494,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9503,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9512,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 78.74 220.98 0)
+			(at 101.6 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,6 +9567,81 @@
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "U2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 113.03 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a3c188-f456-481f-9bb2-50afc1666cc7")
+		(property "Reference" "HS2"
+			(at 116.84 31.1149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 116.84 32.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.3348 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/wakefield-vette/657-15ABPEN/3945700?gad_source=1&gad_campaignid=20228387720&gbraid=0AAAAADrbLlghEVudHKBEPNdYN7v0ps6hs&gclid=CjwKCAjwu9fHBhAWEiwAzGRC__zxPu4SLBdsVH4EIqb6j5d0RQx1LS1I3olNj-Z06d_M7gqJ0-fDAxoC20sQAvD_BwE&gclsrc=aw.ds"
+			(at 113.3348 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Same as HS1, just to show they both use it."
+			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 113.03 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LaserDiodeDriver"
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "HS2")
+					(unit 1)
 				)
 			)
 		)
@@ -9802,7 +9875,8 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 171.45 130.81 0)
+		(at 80.01 115.57 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9810,7 +9884,7 @@
 		(dnp no)
 		(uuid "6539687c-7a07-4b5b-b110-51d6707f215b")
 		(property "Reference" "U2"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9892,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 176.276 134.366 0)
+			(at 83.566 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9826,7 +9900,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +9909,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +9918,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9853,7 +9927,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +9936,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9871,7 +9945,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +9954,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,7 +9963,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 171.45 130.81 0)
+			(at 80.01 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,17 +11088,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 41.91 43.18 0)
+		(at 43.18 43.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ac5468c-7a9c-4196-81d9-bf638ae7b779")
 		(property "Reference" "J1"
-			(at 41.91 36.83 0)
+			(at 43.18 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11105,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 41.91 39.37 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11040,7 +11113,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-			(at 41.91 43.18 0)
+			(at 43.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,7 +11122,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-EH/926533"
-			(at 41.91 43.18 0)
+			(at 43.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,7 +11131,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.079\" (2.00mm)"
-			(at 41.91 43.18 0)
+			(at 43.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11067,7 +11140,7 @@
 			)
 		)
 		(property "Price" " $0.10000"
-			(at 41.91 43.18 0)
+			(at 43.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,7 +11149,7 @@
 			)
 		)
 		(property "Mate" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/EHR-2/527224"
-			(at 41.91 43.18 0)
+			(at 43.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11085,7 +11158,7 @@
 			)
 		)
 		(property "Crimp" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SEH-001T-P0-6/26213194"
-			(at 41.91 43.18 0)
+			(at 43.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12587,7 +12660,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Quad")
-		(at 101.6 154.94 180)
+		(at 171.45 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12595,7 +12668,7 @@
 		(dnp no)
 		(uuid "df7485f1-5a17-4ff3-8572-547fd717758c")
 		(property "Reference" "U2"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12603,7 +12676,7 @@
 			)
 		)
 		(property "Value" "OPA4192"
-			(at 97.282 159.004 0)
+			(at 175.768 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +12684,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12620,7 +12693,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/OPA4192IDR/5647258"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12629,7 +12702,7 @@
 			)
 		)
 		(property "Description" "Standard (General Purpose) Amplifier 4 Circuit Rail-to-Rail 14-SOIC"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +12711,7 @@
 			)
 		)
 		(property "Price" " $7.18000"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12647,7 +12720,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,7 +12729,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_quad"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12665,7 +12738,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12674,7 +12747,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vcc 5=in2+ 6=in2- 7=out2 8=out3 9=in3- 10=in3+ 11=vee 12=in4+ 13=in4- 14=out4"
-			(at 101.6 154.94 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12947,7 +13020,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
-		(at 153.67 135.89 270)
+		(at 153.67 125.73 270)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -12956,7 +13029,7 @@
 		(dnp no)
 		(uuid "edeaed2c-a5e0-429d-91ab-76f553e694ff")
 		(property "Reference" "RN1"
-			(at 153.67 132.842 90)
+			(at 153.67 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12964,7 +13037,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 153.67 138.43 90)
+			(at 153.67 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12972,7 +13045,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_Array_Convex_2x0606"
-			(at 153.67 137.922 90)
+			(at 153.67 127.762 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12981,7 +13054,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay/ACASN1001S1001P1AT/4725788"
-			(at 153.67 135.89 0)
+			(at 153.67 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,7 +13063,7 @@
 			)
 		)
 		(property "Description" "1k Ohm ±0.1% 125mW Power Per Element Isolated 2 Resistor Network/Array ±25ppm/°C 0606, Convex"
-			(at 153.67 135.89 0)
+			(at 153.67 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12999,7 +13072,7 @@
 			)
 		)
 		(property "Price" " $0.72000"
-			(at 153.67 135.89 90)
+			(at 153.67 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
