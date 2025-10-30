@@ -7706,7 +7706,7 @@
 				(hide yes)
 			)
 		)
-		(property "LD_Datasheet" "http://www.egismos.disonhu.com/laser/diode-package.htm"
+		(property "LD_Datasheet" "https://www.thorlabs.com/thorproduct.cfm?partnumber=L785P090"
 			(at 132.08 161.29 90)
 			(effects
 				(font
