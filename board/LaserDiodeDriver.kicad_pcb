@@ -18974,7 +18974,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e0200ed2-3eaf-499e-bfbb-3927b6e88027")
 	)
-	(gr_text " Thorlabs: C Type\nLaser Diode Driver\n	 Rev:#1\n   Drew Wellen"
+	(gr_text " Thorlabs: C Type\nLaser Diode Driver\n   Rev:#1, 2025\n   Drew Wellen"
 		(at 155.15 129.1 45)
 		(layer "F.SilkS")
 		(uuid "37d729fd-64fd-45ec-99d0-f94b8de90730")
