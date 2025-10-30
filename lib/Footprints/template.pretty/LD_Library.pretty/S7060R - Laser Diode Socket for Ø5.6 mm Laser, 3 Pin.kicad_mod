@@ -169,28 +169,28 @@
 		(uuid "b4289d23-3ae1-4dc0-95f0-dff0cfca032f")
 	)
 	(fp_text user "LD"
-		(at -3 2.25 0)
+		(at -4 3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "784ca276-8572-40b6-84c1-9e76edbc990e")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.0625)
+				(size 0.8 0.8)
+				(thickness 0.125)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(fp_text user "PD"
-		(at 2.1 2.25 0)
+		(at 2.5 3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a9a34980-6db4-44ec-ba08-caab3e7af6c9")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.0625)
+				(size 0.8 0.8)
+				(thickness 0.125)
 				(bold yes)
 			)
 			(justify left bottom)
