@@ -11501,13 +11501,13 @@
 			(at 0 -1.25)
 			(size 0.992 0.992)
 			(layers "B.Cu")
-			(uuid "75a479e0-bc73-4963-8471-181494bf6337")
+			(uuid "215d8f2a-3743-4f5f-9a5f-c01065f625fb")
 		)
 		(pad "1" smd circle
 			(at 0 1.25)
 			(size 0.992 0.992)
 			(layers "B.Cu")
-			(uuid "75a479e0-bc73-4963-8471-181494bf6337")
+			(uuid "5e0d74d5-c433-46e8-aeac-e53ef6d523ae")
 		)
 		(pad "1" smd custom
 			(at 1.25 0)
@@ -11525,7 +11525,7 @@
 					(fill no)
 				)
 			)
-			(uuid "75a479e0-bc73-4963-8471-181494bf6337")
+			(uuid "f5880120-1b1b-4c50-be8b-2871a5473595")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_97730456332.step"
@@ -13110,13 +13110,13 @@
 			(at 0 -1.25)
 			(size 0.992 0.992)
 			(layers "B.Cu")
-			(uuid "f913fd47-84db-43ed-acc8-ac69ce1d68ee")
+			(uuid "90a130ee-53a2-4434-9bbe-07b48799fc6b")
 		)
 		(pad "1" smd circle
 			(at 0 1.25)
 			(size 0.992 0.992)
 			(layers "B.Cu")
-			(uuid "f913fd47-84db-43ed-acc8-ac69ce1d68ee")
+			(uuid "7a312848-0eff-4c91-a6f6-adf6bdb26c4c")
 		)
 		(pad "1" smd custom
 			(at 1.25 0)
@@ -13134,7 +13134,7 @@
 					(fill no)
 				)
 			)
-			(uuid "f913fd47-84db-43ed-acc8-ac69ce1d68ee")
+			(uuid "9d83f84b-6fb4-4361-8e99-7cfb59c4db8f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_97730456332.step"
@@ -13668,13 +13668,13 @@
 			(at 0 -1.25)
 			(size 0.992 0.992)
 			(layers "B.Cu")
-			(uuid "1ca959f7-6b34-4902-877a-f402fb374649")
+			(uuid "d6fd7852-9018-4d27-b58d-3bcffe2f7303")
 		)
 		(pad "1" smd circle
 			(at 0 1.25)
 			(size 0.992 0.992)
 			(layers "B.Cu")
-			(uuid "1ca959f7-6b34-4902-877a-f402fb374649")
+			(uuid "265a10b3-802e-4795-9b56-bc1357847f5b")
 		)
 		(pad "1" smd custom
 			(at 1.25 0)
@@ -13692,7 +13692,7 @@
 					(fill no)
 				)
 			)
-			(uuid "1ca959f7-6b34-4902-877a-f402fb374649")
+			(uuid "2f2bbcb9-150b-435f-ba60-acf033e18fbb")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_97730456332.step"
@@ -14239,13 +14239,13 @@
 			(at 0 -1.25)
 			(size 0.992 0.992)
 			(layers "B.Cu")
-			(uuid "9291e128-b960-4ffc-bb29-2efcd13a8a0c")
+			(uuid "ac89ade7-75e2-485b-b8cd-3a60f3ce39fe")
 		)
 		(pad "1" smd circle
 			(at 0 1.25)
 			(size 0.992 0.992)
 			(layers "B.Cu")
-			(uuid "9291e128-b960-4ffc-bb29-2efcd13a8a0c")
+			(uuid "900eb65d-f709-4f90-b327-4a015fd543a8")
 		)
 		(pad "1" smd custom
 			(at 1.25 0)
@@ -14263,7 +14263,7 @@
 					(fill no)
 				)
 			)
-			(uuid "9291e128-b960-4ffc-bb29-2efcd13a8a0c")
+			(uuid "62cadb5d-eafa-44f1-8d90-38e11eceb606")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Mounting_Wuerth.3dshapes/Mounting_Wuerth_WA-SMSI-M1.6_H4.5mm_ThreadDepth2mm_97730456332.step"
@@ -14277,6 +14277,77 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_arc
+		(start 132.273166 116.456192)
+		(mid 130.297935 114.705025)
+		(end 132.926833 114.943807)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21034ea6-5504-430e-b92b-462783b36d95")
+	)
+	(gr_line
+		(start 132.423166 115.806192)
+		(end 133.223166 115.806192)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c2d2848-c274-4460-a909-af003fc72174")
+	)
+	(gr_line
+		(start 132.073166 114.656192)
+		(end 132.926833 114.943807)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aaa8d0af-53d5-42ec-992a-4a3c673e2c3b")
+	)
+	(gr_line
+		(start 132.823166 115.406192)
+		(end 132.823166 116.206192)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad945ad7-017f-46ec-aa6c-6430cc89251d")
+	)
+	(gr_line
+		(start 132.926833 114.943807)
+		(end 133.323166 114.256192)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d25a278e-f6cc-457a-8a1e-59546f1b0bbf")
+	)
+	(gr_line
+		(start 132.926833 114.943807)
+		(end 132.073166 114.656192)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d55d2edc-25b0-4506-b7eb-86e0ca60164e")
+	)
+	(gr_line
+		(start 132.823166 116.206192)
+		(end 132.823166 115.806192)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ed667891-769f-42f6-a395-070b2bbf424a")
 	)
 	(gr_arc
 		(start 162.56 83.82)
