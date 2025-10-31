@@ -54,22 +54,6 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "hole_clearance|121920000|127000001|1ca959f7-6b34-4902-877a-f402fb374649|9ce7163d-4547-413a-ba1b-3fb854a3c559",
-          ""
-        ],
-        [
-          "hole_clearance|121920000|86360001|9291e128-b960-4ffc-bb29-2efcd13a8a0c|1bb52d48-aed5-4859-ba26-b94cbc4f8432",
-          ""
-        ],
-        [
-          "hole_clearance|162560000|127000001|75a479e0-bc73-4963-8471-181494bf6337|0eb9787d-1ba7-463d-ad1b-d9ff719e8555",
-          ""
-        ],
-        [
-          "hole_clearance|162560000|86360001|f913fd47-84db-43ed-acc8-ac69ce1d68ee|56197b85-3c9a-4f6e-bb43-aee7cff3f9d4",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|124000000|106450000|2b972bb0-4f22-4b00-867e-2a9129c23c20|00000000-0000-0000-0000-000000000000",
           ""
         ],
