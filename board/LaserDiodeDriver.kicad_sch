@@ -9062,6 +9062,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 63.5 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d92d844-1749-408d-bb69-13b602fed7ed")
+		(property "Reference" "C1"
+			(at 66.802 230.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 66.802 232.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
+			(at 63.5 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875105359001/5147580"
+			(at 63.5 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF 16 V Aluminum - Polymer Capacitors Radial, Can - SMD 30mOhm 2000 Hrs @ 105°C"
+			(at 63.5 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" " $0.51000"
+			(at 63.5 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540d0254-640d-490c-bb31-82e0039ff4db")
+		)
+		(pin "2"
+			(uuid "2f556078-d56d-4267-b4d8-107c20a807b1")
+		)
+		(instances
+			(project "LaserDiodeDriver"
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 101.6 146.05 90)
 		(unit 1)
@@ -9487,84 +9565,6 @@
 			(project "LaserDiodeDriver"
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 63.5 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7419d957-a990-4423-90ba-d4e9dc1a33ca")
-		(property "Reference" "C1"
-			(at 66.548 230.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 66.548 232.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.8"
-			(at 63.5 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875105359003/5147582"
-			(at 63.5 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22 µF 16 V Aluminum - Polymer Capacitors Radial, Can - SMD 30mOhm 2000 Hrs @ 105°C"
-			(at 63.5 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$0.52000"
-			(at 63.5 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13ec84d5-661f-4088-819c-15dab725db60")
-		)
-		(pin "2"
-			(uuid "5f952a20-4b14-41c9-93ad-beb457f84c8e")
-		)
-		(instances
-			(project "LaserDiodeDriver"
-				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "C1")
 					(unit 1)
 				)
 			)
