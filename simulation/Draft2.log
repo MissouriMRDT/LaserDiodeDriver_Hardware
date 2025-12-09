@@ -1,18 +1,24 @@
 LTspice 26.0.0 for Windows
 Circuit: C:\Users\dwell\Documents\Github\LaserDiodeDriver_Hardware\simulation\Draft2.net
-Start Time: Mon Dec  8 17:26:01 2025
-C:\Users\dwell\Documents\Github\LaserDiodeDriver_Hardware\simulation\Draft2.net(11): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
-X§U2 N006 N010 0 T2N7002AK_G0_00 ;§pnba 3)1)2
+Start Time: Tue Dec  9 17:49:24 2025
+C:\Users\dwell\Documents\Github\LaserDiodeDriver_Hardware\simulation\Draft2.net(10): This pin name equals one of the port names of the sub-circuit, but at a different position. This is not a problem, but note that as a result none of the pin names may be used by any .meas expressions.
+X§U2 N007 N010 0 T2N7002AK_G0_00 ;§pnba 3)1)2
                                         ^
 solver = Normal
 Maximum thread count: 16
 tnom = 27
 temp = 27
 method = trap
-Direct Newton iteration succeeded in finding operating point.
-Changing Tseed to 1e-08
-Singular matrix:  Check node nc_05
-   Iteration No. 3
-Total elapsed time: 0.000 seconds.
-Singular matrix:  check node nc_05
-   Iteration No. 3
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 7.690 seconds.
+
+Files loaded:
+C:\Users\dwell\Documents\Github\LaserDiodeDriver_Hardware\simulation\Draft2.net
+C:\Users\dwell\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\dwell\AppData\Local\LTspice\lib\sub\Contrib\Toshiba\LVMOS\T2N7002AK_G0_00_enc.lib
+C:\Users\dwell\AppData\Local\LTspice\lib\sub\LTC3.lib
+C:\Users\dwell\Documents\Github\LaserDiodeDriver_Hardware\simulation\OPAx192.LIB
+
