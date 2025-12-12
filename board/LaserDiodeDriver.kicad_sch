@@ -8265,6 +8265,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 128.27 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "332a7c22-010d-4c71-9348-9b9db977a2d4")
+		(property "Reference" "R14"
+			(at 130.81 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k"
+			(at 130.81 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.286 212.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "(Standards)"
+			(at 128.27 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "5k Ohm, 0603"
+			(at 128.27 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe7f820c-2aa8-4711-be3b-3888b9c061ea")
+		)
+		(pin "2"
+			(uuid "2eca73fe-5881-431a-b988-a718778c120a")
+		)
+		(instances
+			(project "LaserDiodeDriver"
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 149.86 217.17 0)
 		(mirror y)
@@ -9211,75 +9280,6 @@
 			(project "LaserDiodeDriver"
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 128.27 212.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f7264c0-c307-4f25-95bb-a887a11ecbf6")
-		(property "Reference" "R14"
-			(at 130.81 210.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 130.81 213.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 129.286 212.344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 128.27 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "743e5942-d6fe-4b47-b987-c7870fffe5f5")
-		)
-		(pin "2"
-			(uuid "78a2538a-e10f-4d4c-b83a-1e0de79546b9")
-		)
-		(instances
-			(project "LaserDiodeDriver"
-				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "R14")
 					(unit 1)
 				)
 			)
