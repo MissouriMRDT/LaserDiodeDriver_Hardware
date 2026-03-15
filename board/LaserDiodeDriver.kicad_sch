@@ -1213,7 +1213,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L"
+		(symbol "Device:L_Ferrite"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1232,8 +1232,8 @@
 					)
 				)
 			)
-			(property "Value" "L"
-				(at 1.905 0 90)
+			(property "Value" "L_Ferrite"
+				(at 2.794 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1258,7 +1258,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor"
+			(property "Description" "Inductor with ferrite core"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1285,7 +1285,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L_0_1"
+			(symbol "L_Ferrite_0_1"
 				(arc
 					(start 0 2.54)
 					(mid 0.6323 1.905)
@@ -1334,8 +1334,152 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.016 2.286) (xy 1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0.254) (xy 1.016 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -0.762) (xy 1.016 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.778) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.794) (xy 1.016 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.794) (xy 1.524 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.778) (xy 1.524 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.254) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.286) (xy 1.524 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "L_1_1"
+			(symbol "L_Ferrite_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2858,382 +3002,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LaserDriverRev2:SQ3469EV-T1_BE3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 6.35 0.254 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SQ3469EV-T1_BE3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQ3469EV-T1-BE3/16397578"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-Channel 20 V 8A (Tc) 5W (Tc) Surface Mount 6-TSOP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SQ3469EV-T1_BE3_0_1"
-				(polyline
-					(pts
-						(xy -5.08 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.175) (xy -2.54 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.175) (xy -1.27 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.905) (xy -1.27 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 4.5791)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.635 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 8.89 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.635) (xy 3.81 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.635) (xy 3.175 0.635) (xy 3.81 -0.635) (xy 2.54 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0.635) (xy 3.175 3.175) (xy 1.27 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 -0.635) (xy 3.175 -3.175) (xy 1.27 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SQ3469EV-T1_BE3_1_1"
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 7.62 270)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 1.27 -7.62 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 -7.62 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 6.35 -7.62 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -7.62 90)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Reference_Voltage:LT1009xS8"
 			(pin_names
 				(offset 0.0254)
@@ -4029,6 +3797,305 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:DMP3099L"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "DMP3099L"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP3099L.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMP3099L_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMP3099L_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4293,10 +4360,16 @@
 		(uuid "2b47d922-8abb-459f-9d7a-58356ed9c056")
 	)
 	(junction
-		(at 143.51 187.96)
+		(at 97.79 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4054e7c8-af58-4f52-a244-90d080e533a6")
+		(uuid "37c1c7ea-6050-4cd9-9eb0-d988c5c2573b")
+	)
+	(junction
+		(at 135.89 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ec0fc98-d56a-4cb6-8954-013cd63980f9")
 	)
 	(junction
 		(at 340.36 158.75)
@@ -4323,10 +4396,10 @@
 		(uuid "6e11a03b-b4c0-4cdd-8889-60e6edd66d2c")
 	)
 	(junction
-		(at 148.59 207.01)
+		(at 97.79 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "880bcf7a-a19a-4670-8433-b8b8884abfe1")
+		(uuid "83daf8ca-b672-442a-9a22-f4e458942963")
 	)
 	(junction
 		(at 266.7 237.49)
@@ -4371,28 +4444,22 @@
 		(uuid "b2d9e974-2d10-4074-b915-89470ce2d49d")
 	)
 	(junction
-		(at 166.37 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b72c7d5f-59aa-4c70-a7fe-06fdbca7f0c4")
-	)
-	(junction
 		(at 287.02 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baae8c98-3874-4547-84e9-66ed74fb0036")
 	)
 	(junction
-		(at 151.13 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb420372-2d80-41fa-87ce-5497431c437a")
-	)
-	(junction
 		(at 266.7 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c842868a-d1e2-4f38-aed0-dc146511644a")
+	)
+	(junction
+		(at 160.02 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c95cc0fc-dceb-4d03-88f2-8a97f10594a2")
 	)
 	(junction
 		(at 309.88 133.35)
@@ -4437,13 +4504,7 @@
 		(uuid "e8073f61-2d64-4096-9156-9d2a3b35bd86")
 	)
 	(junction
-		(at 146.05 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7900692-9b6f-443a-9550-0ddd6b11c452")
-	)
-	(junction
-		(at 143.51 207.01)
+		(at 135.89 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f835eb43-d460-4744-a434-a3baf1b4436d")
@@ -4460,7 +4521,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 228.6) (xy 166.37 228.6)
+			(xy 119.38 228.6) (xy 160.02 228.6)
 		)
 		(stroke
 			(width 0)
@@ -4480,13 +4541,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 205.74) (xy 151.13 207.01)
+			(xy 99.06 190.5) (xy 97.79 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "079ea0df-b471-436a-a697-89b579191a4c")
+		(uuid "02a7b4e5-eaa1-4dda-8b8c-db41cf63e569")
 	)
 	(wire
 		(pts
@@ -4530,23 +4591,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 207.01) (xy 172.72 201.93)
+			(xy 165.1 207.01) (xy 165.1 201.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f6586cf-5c5a-484e-9b22-a49be678080b")
-	)
-	(wire
-		(pts
-			(xy 146.05 207.01) (xy 148.59 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fda9cce-f58b-4ca8-ba29-b94556532543")
 	)
 	(wire
 		(pts
@@ -4580,7 +4631,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 207.01) (xy 166.37 207.01)
+			(xy 99.06 198.12) (xy 91.44 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15718d60-8649-4266-b017-6975687b1646")
+	)
+	(wire
+		(pts
+			(xy 156.21 207.01) (xy 160.02 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4630,7 +4691,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 175.26) (xy 143.51 177.8)
+			(xy 135.89 177.8) (xy 135.89 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4670,6 +4731,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 207.01) (xy 91.44 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcbf318-416f-4c72-a853-a866e95bd1ad")
+	)
+	(wire
+		(pts
 			(xy 248.92 237.49) (xy 254 237.49)
 		)
 		(stroke
@@ -4680,23 +4751,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 194.31) (xy 128.27 194.31)
+			(xy 116.84 194.31) (xy 128.27 194.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31b285a4-40ac-4d7f-a91c-22b942c9c959")
-	)
-	(wire
-		(pts
-			(xy 143.51 205.74) (xy 143.51 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33168c82-b433-483c-b2b0-ff55b850b846")
 	)
 	(wire
 		(pts
@@ -4720,7 +4781,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 187.96) (xy 143.51 187.96)
+			(xy 128.27 190.5) (xy 135.89 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4800,13 +4861,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 207.01) (xy 156.21 207.01)
+			(xy 97.79 208.28) (xy 97.79 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a5dd233-68b9-4dda-96a3-a2e04fedcbf9")
+		(uuid "4bed6f71-fcac-4976-b701-b015a1318bfb")
 	)
 	(wire
 		(pts
@@ -4820,7 +4881,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 201.93) (xy 119.38 201.93)
+			(xy 116.84 201.93) (xy 119.38 201.93)
 		)
 		(stroke
 			(width 0)
@@ -4830,7 +4891,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 207.01) (xy 143.51 210.82)
+			(xy 135.89 207.01) (xy 135.89 210.82)
 		)
 		(stroke
 			(width 0)
@@ -4860,7 +4921,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 207.01) (xy 146.05 207.01)
+			(xy 135.89 207.01) (xy 148.59 207.01)
 		)
 		(stroke
 			(width 0)
@@ -4890,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 201.93) (xy 91.44 201.93)
+			(xy 97.79 201.93) (xy 99.06 201.93)
 		)
 		(stroke
 			(width 0)
@@ -4910,7 +4971,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 190.5) (xy 118.11 190.5)
+			(xy 116.84 190.5) (xy 121.92 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5130,7 +5191,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 194.31) (xy 128.27 187.96)
+			(xy 160.02 207.01) (xy 165.1 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b61c7e-cf03-424c-90a6-b645f18c235d")
+	)
+	(wire
+		(pts
+			(xy 128.27 194.31) (xy 128.27 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5140,17 +5211,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 207.01) (xy 172.72 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a16d174-4a82-485f-a9a8-788ced6104fd")
-	)
-	(wire
-		(pts
-			(xy 109.22 198.12) (xy 134.62 198.12)
+			(xy 116.84 198.12) (xy 128.27 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +5221,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 175.26) (xy 143.51 175.26)
+			(xy 121.92 177.8) (xy 135.89 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5190,26 +5251,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 207.01) (xy 151.13 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "925617f3-3608-4b6f-974e-e7fe9c628b3c")
-	)
-	(wire
-		(pts
-			(xy 143.51 187.96) (xy 143.51 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92684d3a-00d1-4e9e-988b-c0f0e7fb49bf")
-	)
-	(wire
-		(pts
 			(xy 284.48 140.97) (xy 287.02 140.97)
 		)
 		(stroke
@@ -5217,16 +5258,6 @@
 			(type default)
 		)
 		(uuid "95a8a97c-2824-4457-a77f-c732b2e219cc")
-	)
-	(wire
-		(pts
-			(xy 143.51 185.42) (xy 143.51 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95e9b9b4-284e-4f12-be08-16dd5c716ee1")
 	)
 	(wire
 		(pts
@@ -5300,6 +5331,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 198.12) (xy 91.44 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1159c6b-6f32-45cb-ab0a-f5535358be7d")
+	)
+	(wire
+		(pts
 			(xy 257.81 143.51) (xy 255.27 143.51)
 		)
 		(stroke
@@ -5367,16 +5408,6 @@
 			(type default)
 		)
 		(uuid "a53ed310-c85e-44e6-9cef-37826083999f")
-	)
-	(wire
-		(pts
-			(xy 146.05 205.74) (xy 146.05 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83ec851-6053-44f6-878a-6f210435e1d1")
 	)
 	(wire
 		(pts
@@ -5510,7 +5541,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 190.5) (xy 118.11 175.26)
+			(xy 91.44 208.28) (xy 97.79 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccbecde6-df65-4fa4-a15f-60f5f5de4726")
+	)
+	(wire
+		(pts
+			(xy 121.92 190.5) (xy 121.92 177.8)
 		)
 		(stroke
 			(width 0)
@@ -5570,6 +5611,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 203.2) (xy 135.89 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9644d35-f20c-4b00-981c-559d9e8698a2")
+	)
+	(wire
+		(pts
 			(xy 312.42 171.45) (xy 320.04 171.45)
 		)
 		(stroke
@@ -5580,7 +5631,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 218.44) (xy 143.51 220.98)
+			(xy 135.89 218.44) (xy 135.89 220.98)
 		)
 		(stroke
 			(width 0)
@@ -5690,6 +5741,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 190.5) (xy 97.79 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e680d02c-6072-4dfd-94cd-fda6ff04bf39")
+	)
+	(wire
+		(pts
 			(xy 312.42 182.88) (xy 312.42 186.69)
 		)
 		(stroke
@@ -5700,7 +5761,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 201.93) (xy 90.17 207.01)
+			(xy 97.79 201.93) (xy 97.79 208.28)
 		)
 		(stroke
 			(width 0)
@@ -5727,16 +5788,6 @@
 			(type default)
 		)
 		(uuid "ec402726-d542-40bf-9f75-c2bfdfaf0ed6")
-	)
-	(wire
-		(pts
-			(xy 148.59 205.74) (xy 148.59 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef22d4a1-322f-40b3-8d72-fd7a0a6dba31")
 	)
 	(wire
 		(pts
@@ -5780,6 +5831,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 187.96) (xy 135.89 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5585aee-ac49-4a65-90e1-0d09514da9ba")
+	)
+	(wire
+		(pts
 			(xy 270.51 243.84) (xy 270.51 246.38)
 		)
 		(stroke
@@ -5790,7 +5851,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 228.6) (xy 166.37 207.01)
+			(xy 160.02 228.6) (xy 160.02 207.01)
 		)
 		(stroke
 			(width 0)
@@ -5827,6 +5888,16 @@
 			(type default)
 		)
 		(uuid "fc0c3d1b-9ad9-422a-9ab7-9a34dfcb8cb4")
+	)
+	(wire
+		(pts
+			(xy 135.89 190.5) (xy 135.89 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feaafeec-7e48-462f-ab3a-5f6355b868c9")
 	)
 	(global_label "V_{I_LD}"
 		(shape input)
@@ -6523,88 +6594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LaserDriverRev2:SQ3469EV-T1_BE3")
-		(at 142.24 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16a27593-67a9-45fc-acfc-0064a6302c63")
-		(property "Reference" "U4"
-			(at 152.4 196.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 152.4 199.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LaserDriverRev2Library:TSOP-6_1.65x3.05mm_P0.95mm"
-			(at 142.24 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-siliconix/SQ3469EV-T1-BE3/16397578"
-			(at 142.24 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-Channel 20 V 8A (Tc) 5W (Tc) Surface Mount 6-TSOP"
-			(at 142.24 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "05fdcc85-bc3f-4ed3-8a2d-b88d2472c254")
-		)
-		(pin "4"
-			(uuid "f2c10aa4-66ac-4d68-a056-3e398fa83de0")
-		)
-		(pin "1"
-			(uuid "3a4ef086-9ed7-4bb5-b6a2-d0351a8b53cb")
-		)
-		(pin "3"
-			(uuid "a23b9808-bfc6-44d2-b813-f94ce6020227")
-		)
-		(pin "2"
-			(uuid "4076ecc9-8401-4045-8cc5-bcf9f0c6f533")
-		)
-		(pin "5"
-			(uuid "66b574dd-9c38-4473-9c43-319bbbb187fb")
-		)
-		(instances
-			(project ""
-				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 255.27 153.67 0)
 		(mirror x)
@@ -6673,42 +6662,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 160.02 207.01 90)
+		(lib_id "Device:C")
+		(at 91.44 203.2 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f275d93-a101-452f-a705-2c7d1d7643e9")
-		(property "Reference" "L1"
-			(at 160.02 201.93 90)
+		(uuid "20e0a508-8a59-4079-b7b7-57ef1ad00695")
+		(property "Reference" "C2"
+			(at 86.106 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22uH"
-			(at 160.02 204.47 90)
+		(property "Value" "0.1uF"
+			(at 86.106 204.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 160.02 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 207.01 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 90.4748 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,8 +6696,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 160.02 207.01 0)
+		(property "Datasheet" "(Standards)"
+			(at 91.44 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1uF, 50V, 0603"
+			(at 91.44 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,15 +6715,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc58d67b-a9b8-4a34-979b-76252122109d")
+			(uuid "48258c49-5ddb-40ed-aa9a-9bb2051e9efe")
 		)
 		(pin "2"
-			(uuid "3799b972-2d01-4797-ad74-d157f8ec4273")
+			(uuid "e6944d0c-bae8-41ed-9baa-cae536c78d97")
 		)
 		(instances
-			(project ""
+			(project "LaserDiodeDriver"
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "L1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6891,7 +6880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 220.98 0)
+		(at 135.89 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6899,7 +6888,7 @@
 		(dnp no)
 		(uuid "2f879818-f7dc-4693-bed0-f4d15320a68c")
 		(property "Reference" "#PWR05"
-			(at 143.51 227.33 0)
+			(at 135.89 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +6897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 224.79 0)
+			(at 135.89 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +6905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 220.98 0)
+			(at 135.89 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6925,7 +6914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 220.98 0)
+			(at 135.89 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6934,7 +6923,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 220.98 0)
+			(at 135.89 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +7620,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 172.72 201.93 0)
+		(at 165.1 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7639,7 +7628,7 @@
 		(dnp no)
 		(uuid "5c4ef091-f183-41bf-9b17-b5e19c0f1e65")
 		(property "Reference" "#PWR04"
-			(at 172.72 205.74 0)
+			(at 165.1 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7637,7 @@
 			)
 		)
 		(property "Value" "+3.3V_{LD}"
-			(at 172.72 197.866 0)
+			(at 165.1 197.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 201.93 0)
+			(at 165.1 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 201.93 0)
+			(at 165.1 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 172.72 201.93 0)
+			(at 165.1 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +7979,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 143.51 214.63 270)
+		(at 135.89 214.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7998,7 +7987,7 @@
 		(dnp no)
 		(uuid "6be37d98-b88b-4039-af5e-95b06504336d")
 		(property "Reference" "D1"
-			(at 140.97 213.0424 90)
+			(at 133.35 213.0424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +7996,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 140.97 215.5824 90)
+			(at 133.35 215.5824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,8 +8004,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 214.63 0)
+		(property "Footprint" "LaserDriverRev2Library:SODFL3617X108N"
+			(at 135.89 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8024,8 +8013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 143.51 214.63 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/onsemi/SS24FL/5305066?_gl=1*1c3mel4*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwsdnNBhC4ARIsAA_3hejras6VeyGHdg81vufP8HmAC3VsK7Z_lyaw_Pd7hRr9RKA1GSs5T0YaAnDQEALw_wcB&gclsrc=aw.ds&gbraid=0AAAAADrbLlhD8z9_I1VQpEBrr1xufGiFC"
+			(at 135.89 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8033,8 +8022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 143.51 214.63 0)
+		(property "Description" "Diode 40 V 2A Surface Mount SOD-123F"
+			(at 135.89 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8048,7 @@
 	)
 	(symbol
 		(lib_id "LaserDriverRev2:MAX1626ESA+T")
-		(at 100.33 195.58 0)
+		(at 107.95 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8068,7 +8057,7 @@
 		(fields_autoplaced yes)
 		(uuid "786d94a0-5f61-4b65-961b-4c5fa49e822a")
 		(property "Reference" "U3"
-			(at 100.33 182.88 0)
+			(at 107.95 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8076,7 +8065,7 @@
 			)
 		)
 		(property "Value" "MAX1626ESA+T"
-			(at 100.33 185.42 0)
+			(at 107.95 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8073,7 @@
 			)
 		)
 		(property "Footprint" "LaserDriverRev2Library:21-0041B_8_MXM"
-			(at 100.33 195.58 0)
+			(at 107.95 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +8082,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/analog-devices-inc-maxim-integrated/MAX1626ESA-T/1475682"
-			(at 100.33 195.58 0)
+			(at 107.95 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,7 +8091,7 @@
 			)
 		)
 		(property "Description" "Buck Regulator Positive Output Step-Down DC-DC Controller IC 8-SOIC"
-			(at 100.33 195.58 0)
+			(at 107.95 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,6 +8194,73 @@
 			(project "LaserDiodeDriver"
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Ferrite")
+		(at 152.4 207.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "840d12a7-93d9-46b1-a49c-b7bed78dcf63")
+		(property "Reference" "L2"
+			(at 152.4 203.454 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68 µH"
+			(at 152.4 209.296 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
+			(at 152.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744771168/1638620"
+			(at 152.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "68 µH Shielded Drum Core, Wirewound Inductor 1.91 A 120mOhm Max Nonstandard"
+			(at 152.4 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e619595f-2169-4083-8982-cf99e064d420")
+		)
+		(pin "2"
+			(uuid "8bba8655-5f0a-4fe3-8163-9a328c701596")
+		)
+		(instances
+			(project ""
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -8759,6 +8815,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMP3099L")
+		(at 133.35 198.12 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a98ac74b-6ddd-4489-b439-0a5d606d33ff")
+		(property "Reference" "Q2"
+			(at 139.7 199.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP3099L"
+			(at 139.7 196.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 138.43 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/DMP3099L-7/4471075"
+			(at 138.43 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.8A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 133.35 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7817f678-c208-4667-94ee-5453576532da")
+		)
+		(pin "2"
+			(uuid "2b08237c-bdf6-47f1-9f2f-baf68057592d")
+		)
+		(pin "3"
+			(uuid "bacfc78e-a8ed-496a-a73b-48fde26db329")
+		)
+		(instances
+			(project ""
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack02_SIP_Split")
 		(at 350.52 166.37 90)
 		(unit 1)
@@ -8992,7 +9124,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 143.51 181.61 0)
+		(at 135.89 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9001,7 +9133,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1a4469f-8af1-44eb-81c7-cbda89912054")
 		(property "Reference" "R2"
-			(at 146.05 180.3399 0)
+			(at 138.43 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9009,8 +9141,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40mΩ"
-			(at 146.05 182.8799 0)
+		(property "Value" "150mΩ"
+			(at 138.43 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9018,8 +9150,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 141.732 181.61 90)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 134.112 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9027,8 +9159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 143.51 181.61 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vishay-dale/WFC1206R1500FE66/15908429"
+			(at 135.89 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,8 +9168,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 143.51 181.61 0)
+		(property "Description" "150 mOhms ±1% 0.5W, 1/2W Chip Resistor 1206 (3216 Metric) Anti-Sulfur, Current Sense Metal Foil"
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "WFC1206R1500FE66"
+			(at 135.89 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "$0.56"
+			(at 135.89 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9491,6 +9641,76 @@
 			(project "LaserDiodeDriver"
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 172.72 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe57d73-6027-4133-90d6-9048853b76bd")
+		(property "Reference" "C6"
+			(at 176.53 215.2649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 µF"
+			(at 176.53 217.8049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 172.72 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b63a424-e8cf-4350-a432-53e856b8a164")
+		)
+		(pin "1"
+			(uuid "79e2da52-adaa-49b4-8d6d-d5a1acdf319b")
+		)
+		(instances
+			(project ""
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10079,7 +10299,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 207.01 0)
+		(at 97.79 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10087,7 +10307,7 @@
 		(dnp no)
 		(uuid "f9b35131-d208-40eb-b3d6-de57de6815ae")
 		(property "Reference" "#PWR08"
-			(at 90.17 213.36 0)
+			(at 97.79 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 210.82 0)
+			(at 97.79 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10104,7 +10324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 207.01 0)
+			(at 97.79 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,7 +10333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 207.01 0)
+			(at 97.79 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +10342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 207.01 0)
+			(at 97.79 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

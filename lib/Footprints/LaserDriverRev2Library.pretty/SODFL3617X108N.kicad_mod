@@ -1,0 +1,233 @@
+(footprint "SODFL3617X108N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.635 -2.032 0)
+		(layer "F.SilkS")
+		(uuid "d3980137-fe93-4f26-a70e-363ab4503770")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SODFL3617X108N"
+		(at 6.35 1.905 0)
+		(layer "F.Fab")
+		(uuid "80d3bfae-d8c3-4a16-8c2a-28c8e7511868")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "161e7d92-e708-4c1d-9766-6f7ee58b00bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cbb96fd-d21a-4288-8e46-6c522fad34a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.38 -0.975)
+		(end 1.38 -0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "182520a5-ed2d-44c7-ad3e-da34718ed5a3")
+	)
+	(fp_line
+		(start -1.38 0.975)
+		(end 1.38 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4494c1a-ddfc-4904-9797-33574084e6b3")
+	)
+	(fp_circle
+		(center -2.605 0)
+		(end -2.505 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "de55acde-ac2c-40a1-8461-94173fb6589e")
+	)
+	(fp_line
+		(start -2.405 -1.225)
+		(end -2.405 1.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5805e17f-8741-4e0f-bd2a-66f13e24a91a")
+	)
+	(fp_line
+		(start -2.405 -1.225)
+		(end 2.405 -1.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3a59d8b6-739a-41e3-b1a5-9726af87e257")
+	)
+	(fp_line
+		(start 2.405 1.225)
+		(end -2.405 1.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "964c0d77-eca1-48a4-bfd6-44495ac17ae5")
+	)
+	(fp_line
+		(start 2.405 1.225)
+		(end 2.405 -1.225)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "228c9ac6-aafe-41db-a0ad-21570595e3fc")
+	)
+	(fp_line
+		(start -1.5 -0.975)
+		(end -1.5 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a17a6c3-c39a-4ceb-b73a-182ec1132428")
+	)
+	(fp_line
+		(start -1.5 -0.975)
+		(end -0.6 -0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c51b9e92-1b0b-49e2-8eb2-70b76770dfea")
+	)
+	(fp_line
+		(start -0.6 -0.975)
+		(end -0.6 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e9c63f1-3a93-4add-b05f-92342736d9b4")
+	)
+	(fp_line
+		(start -0.6 -0.975)
+		(end 1.5 -0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b11c03b-f7f0-4fbd-afb6-61ebf9877582")
+	)
+	(fp_line
+		(start -0.6 0.975)
+		(end -1.5 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d82641bf-fe46-4850-a331-70bc6ee78496")
+	)
+	(fp_line
+		(start 1.5 0.975)
+		(end -0.6 0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90872000-31ab-4358-b3e4-bd43f396485e")
+	)
+	(fp_line
+		(start 1.5 0.975)
+		(end 1.5 -0.975)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e3f87a6-b42f-4fb9-9f66-1b5b4e4fb1f0")
+	)
+	(fp_circle
+		(center -2.605 0)
+		(end -2.505 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "99dc6d43-f99d-482e-944b-c08e742dfa59")
+	)
+	(pad "A" smd roundrect
+		(at 1.53 0)
+		(size 1.25 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "1613440e-9f72-4833-ad56-0152567c347d")
+	)
+	(pad "C" smd roundrect
+		(at -1.53 0)
+		(size 1.25 1.16)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "8262ce36-e281-4781-808f-8e1ac46ef483")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/dwell/Documents/Github/LaserDiodeDriver_Hardware/lib/3D Models/SS24FL.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
