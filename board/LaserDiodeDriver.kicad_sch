@@ -112,6 +112,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -405,492 +547,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:D_Laser_Photo_PType"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LD"
-				(at 1.016 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Laser_Photo_PType"
-				(at 1.016 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.egismos.disonhu.com/laser/diode-package.htm"
-				(at 3.302 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Laser diode with photodiode, center on pin 2, PD cathode on pin 3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "opto laserdiode photodiode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*LaserDiode*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Laser_Photo_PType_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 5.334) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 4.826) (xy 0 4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 4.318) (xy 0 4.826)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 3.81) (xy 0 5.334)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.524 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 5.334) (xy -0.508 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 4.572) (xy -0.762 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 4.572) (xy -0.762 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 2.032) (xy -0.635 1.27) (xy -0.254 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -1.397) (xy -0.635 -2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -1.397)
-					(mid -0.3298 -1.5875)
-					(end -0.508 -1.778)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 5.334) (xy -1.016 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid 0.3794 1.651)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.397)
-					(mid 0.3794 -1.778)
-					(end 0 -2.159)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.397) (xy 0 -2.159)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 4.572) (xy -1.778 4.572)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.762) (xy 2.286 -0.762) (xy 2.286 -0.254) (xy 2.286 -0.762) (xy 1.778 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 4.064) (xy 2.54 5.588) (xy 2.54 5.08) (xy 2.54 5.588) (xy 2.032 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 3.81) (xy 1.016 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 1.016 -3.81) (xy 3.556 -2.54) (xy 1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.762) (xy 3.556 -0.762) (xy 3.556 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 4.064) (xy 3.81 5.588) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 3.81) (xy 3.556 1.27) (xy 1.016 2.54) (xy 3.556 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -0.762) (xy 3.048 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -1.27) (xy 3.556 -3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.588) (xy 3.302 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.318 6.096)
-					(end -2.286 -4.318)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy -1.524 2.54) (xy -1.524 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Laser_Photo_PType_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4592,10 +4248,10 @@
 		(uuid "262a7973-bf9f-458d-b542-2663104107f7")
 	)
 	(junction
-		(at 314.96 139.7)
+		(at 312.42 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b47d922-8abb-459f-9d7a-58356ed9c056")
+		(uuid "2ce11ede-c19a-47f9-92e6-316ab3578de7")
 	)
 	(junction
 		(at 95.25 181.61)
@@ -4863,7 +4519,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 139.7) (xy 314.96 139.7)
+			(xy 304.8 139.7) (xy 312.42 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5103,7 +4759,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 124.46) (xy 312.42 125.73)
+			(xy 312.42 124.46) (xy 312.42 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5303,16 +4959,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 138.43) (xy 314.96 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60254159-cf15-49cd-acd9-265a331000e1")
-	)
-	(wire
-		(pts
 			(xy 76.2 144.78) (xy 88.9 144.78)
 		)
 		(stroke
@@ -5403,6 +5049,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 132.08) (xy 317.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc0fbf0-19ab-4631-9b1d-d7d4a947d738")
+	)
+	(wire
+		(pts
 			(xy 269.24 128.27) (xy 269.24 124.46)
 		)
 		(stroke
@@ -5463,16 +5119,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 125.73) (xy 317.5 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d321859-5300-4151-996b-a787c66c0578")
-	)
-	(wire
-		(pts
 			(xy 241.3 201.93) (xy 241.3 205.74)
 		)
 		(stroke
@@ -5480,6 +5126,16 @@
 			(type default)
 		)
 		(uuid "8199f9a7-2b86-4f52-b081-fc0ec4b9a242")
+	)
+	(wire
+		(pts
+			(xy 312.42 134.62) (xy 317.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82340fdf-f0b5-4ebf-a6d8-4bae22a93558")
 	)
 	(wire
 		(pts
@@ -5773,16 +5429,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 139.7) (xy 314.96 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b000d05d-d287-4328-a2e2-f13ba1922bc8")
-	)
-	(wire
-		(pts
 			(xy 339.09 119.38) (xy 332.74 119.38)
 		)
 		(stroke
@@ -5790,16 +5436,6 @@
 			(type default)
 		)
 		(uuid "b032a702-cd2a-4810-a2c0-2aa2a956c3f5")
-	)
-	(wire
-		(pts
-			(xy 317.5 124.46) (xy 321.31 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0bd409f-8612-46ed-b27b-c3455a4d4872")
 	)
 	(wire
 		(pts
@@ -6003,16 +5639,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 124.46) (xy 321.31 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4676fd6-f25b-4f4a-b8fd-eb3e41d7fe6d")
-	)
-	(wire
-		(pts
 			(xy 353.06 109.22) (xy 353.06 119.38)
 		)
 		(stroke
@@ -6050,6 +5676,16 @@
 			(type default)
 		)
 		(uuid "d98e9bd0-d67e-4513-ae03-0de81ded7398")
+	)
+	(wire
+		(pts
+			(xy 312.42 134.62) (xy 312.42 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9851f4-dc73-4e65-a3a0-cceadcd66964")
 	)
 	(wire
 		(pts
@@ -6193,7 +5829,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 139.7) (xy 314.96 140.97)
+			(xy 312.42 139.7) (xy 312.42 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7485,96 +7121,6 @@
 			(project "LaserDiodeDriver"
 				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Laser_Photo_PType")
-		(at 314.96 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30dc5f32-5315-4b03-945e-8d58bb2710d0")
-		(property "Reference" "LD1"
-			(at 314.96 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "L785P090"
-			(at 314.96 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LD_Library:S7060R - Laser Diode Socket for Ø5.6 mm Laser, 3 Pin"
-			(at 313.055 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.thorlabs.com/thorproduct.cfm?partnumber=S7060R"
-			(at 317.5 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Laser diode with photodiode, center on pin 2, PD cathode on pin 3"
-			(at 314.96 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "$7.49"
-			(at 314.96 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LD_Datasheet" "https://www.thorlabs.com/thorproduct.cfm?partnumber=L785P090"
-			(at 314.96 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df1bf72e-fd07-4ed1-be89-d65f7087b618")
-		)
-		(pin "1"
-			(uuid "5e23d7fe-7ed3-45aa-8e6b-43a26e1a169e")
-		)
-		(pin "3"
-			(uuid "4511a97e-c416-4c78-a9af-8424faec1a88")
-		)
-		(instances
-			(project "LaserDiodeDriver"
-				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
-					(reference "LD1")
 					(unit 1)
 				)
 			)
@@ -9544,6 +9090,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 322.58 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ac5468c-7a9c-4196-81d9-bf638ae7b779")
+		(property "Reference" "J1"
+			(at 322.58 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 322.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+			(at 322.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S2B-EH/926533"
+			(at 322.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Through Hole, Right Angle 2 position 0.079\" (2.00mm)"
+			(at 322.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" " $0.10000"
+			(at 322.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mate" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/EHR-2/527224"
+			(at 322.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Crimp" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/SEH-001T-P0-6/26213194"
+			(at 322.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "288ffd9b-19b6-422f-800f-e5bf2842f281")
+		)
+		(pin "2"
+			(uuid "6ea17d5c-e0f3-49a2-803f-ea8b2fe6bfb5")
+		)
+		(instances
+			(project "LaserDiodeDriver"
+				(path "/331385f6-e980-45c6-bdf7-9362279e36d1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 287.02 93.98 0)
 		(unit 1)
@@ -11090,7 +10730,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 314.96 140.97 0)
+		(at 312.42 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11099,7 +10739,7 @@
 		(dnp no)
 		(uuid "e30d10c3-fcbb-4d7c-ba97-1074f653f98f")
 		(property "Reference" "#PWR013"
-			(at 314.96 147.32 0)
+			(at 312.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11108,7 +10748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 314.96 144.78 0)
+			(at 312.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +10756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 314.96 140.97 0)
+			(at 312.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +10765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 314.96 140.97 0)
+			(at 312.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +10774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 314.96 140.97 0)
+			(at 312.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
