@@ -9104,7 +9104,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_WE-PD-Typ-LS_Handsoldering"
+		(property "Footprint" "LaserDriverRev2Library:L_Bourns_SRP7028A_7.3x6.6mm"
 			(at 149.86 180.34 0)
 			(effects
 				(font
@@ -9113,7 +9113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744771168/1638620"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/bourns-inc/SRP7050TA-680M/5429692"
 			(at 149.86 180.34 0)
 			(effects
 				(font
@@ -9122,7 +9122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "68 µH Shielded Drum Core, Wirewound Inductor 1.91 A 120mOhm Max Nonstandard"
+		(property "Description" "68 µH Shielded Drum Core, Wirewound Inductor 1.2 A 445mOhm Max Nonstandard"
 			(at 149.86 180.34 0)
 			(effects
 				(font
